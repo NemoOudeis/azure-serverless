@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "start": "func host start"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "serverless": "^1.71.3",
+    "serverless-azure-functions": "^2.0.6"
+  }
+}
