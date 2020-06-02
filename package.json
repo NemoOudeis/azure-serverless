@@ -1,10 +1,18 @@
 {
   "scripts": {
-    "start": "func host start"
+    "start": "func host start",
+    "build": "webpack --config webpack.config.js",
+    "deploy": "sls deploy",
+    "clean": "sls remove"
   },
   "dependencies": {},
   "devDependencies": {
-    "serverless": "^1.71.3",
-    "serverless-azure-functions": "^2.0.6"
+    "@azure/functions": "^1.2.2",
+    "serverless": "^1.72.0",
+    "serverless-azure-functions": "^2.0.8",
+    "ts-loader": "^7.0.5",
+    "typescript": "^3.9.3",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
   }
 }
