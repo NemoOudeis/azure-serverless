@@ -1,11 +1,13 @@
 {
   "scripts": {
     "start": "func host start",
-    "build": "webpack --config webpack.config.js",
+    "build": "webpack --env.prod",
     "deploy": "sls deploy",
     "clean": "sls remove"
   },
-  "dependencies": {},
+  "dependencies": {
+    "bitflyer-api": "^0.2.0"
+  },
   "devDependencies": {
     "@azure/functions": "^1.2.2",
     "serverless": "^1.72.0",

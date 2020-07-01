@@ -11,7 +11,8 @@
       "noImplicitReturns": true,
       "lib": ["es2020"],
       "skipLibCheck": true,
-      "experimentalDecorators": true
+      "experimentalDecorators": true,
+      "resolveJsonModule": true
     },
     "include": ["src/**/*"]
   }

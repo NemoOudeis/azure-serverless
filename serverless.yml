@@ -54,8 +54,6 @@ package:
   #   - include-me.js
   #   - include-me-dir/**
   exclude:
-    # - exclude-me.js
-    # - exclude-me-dir/**
     - local.settings.json
     - .vscode/**
 
@@ -65,25 +63,17 @@ functions:
     events:
       - timer:
         name: timerObj #<string>, default - "myTimer", specifies which name is available on `context.bindings`
-        schedule: 0 */5 * * * * #<string>, cron expression to run on
+        schedule: 18 18 * * * #<string>, cron expression to run on
     
-  hello:
-    handler: out/main.hello
-    events:
-      - http: true
-        x-azure-settings:
-          methods:
-            - GET
-          authLevel: anonymous # can also be `function` or `admin`
+  # hello:
+  #   handler: out/main.hello
+  #   events:
+  #     - http: true
+  #       x-azure-settings:
+  #         methods:
+  #           - GET
+  #         authLevel: anonymous # can also be `function` or `admin`
 
-  goodbye:
-    handler: out/main.goodbye
-    events:
-      - http: true
-        x-azure-settings:
-          methods:
-            - GET
-          authLevel: anonymous
   # The following are a few examples of other events you can configure:
   # storageBlob:
   #   handler: src/handlers/storageBlob.printMessage

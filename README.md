@@ -22,5 +22,5 @@ Interactions with Azure require the following environment variables (see [server
 AZURE_SUBSCRIPTION_ID='XYZ'
 AZURE_TENANT_ID='XYZ'
 AZURE_CLIENT_ID='XYZ'
-AZURE_CLIENT_SECRET="XYZ 
+AZURE_CLIENT_SECRET='XYZ'
 ```

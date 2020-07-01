@@ -1282,6 +1282,13 @@ bindings@^1.5.0:
   dependencies:
     file-uri-to-path "1.0.0"
 
+bitflyer-api@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/bitflyer-api/-/bitflyer-api-0.2.0.tgz#ee3c311bba456bd2d922ec001e41053f93cec24d"
+  integrity sha512-KQPD65pDPe7G+23ml+m2fy3nI25VNG5B0M94qEn8EKu6iNGbLX/Vsg1qBM2YOT8C413RHqA7icgAnjFVCDwP5g==
+  dependencies:
+    request "^2.88.2"
+
 bl@^0.9.0:
   version "0.9.5"
   resolved "https://registry.yarnpkg.com/bl/-/bl-0.9.5.tgz#c06b797af085ea00bc527afc8efcf11de2232054"
@@ -6220,7 +6227,7 @@ request-promise-native@^1.0.8:
     stealthy-require "^1.1.1"
     tough-cookie "^2.3.3"
 
-"request@>= 2.52.0", request@^2.81.0, request@^2.88.0:
+"request@>= 2.52.0", request@^2.81.0, request@^2.88.0, request@^2.88.2:
   version "2.88.2"
   resolved "https://registry.yarnpkg.com/request/-/request-2.88.2.tgz#d73c918731cb5a87da047e207234146f664d12b3"
   integrity sha512-MsvtOrfG9ZcrOwAW+Qi+F6HbD0CWXEh9ou77uOb7FM2WPhwT7smM833PzanhJLsgXjN89Ir6V2PczXNnMpwKhw==
