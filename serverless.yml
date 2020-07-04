@@ -63,7 +63,7 @@ functions:
     events:
       - timer:
         name: timerObj #<string>, default - "myTimer", specifies which name is available on `context.bindings`
-        schedule: 18 18 * * * #<string>, cron expression to run on
+        schedule: 0 00 9 * * 5 # see https://github.com/atifaziz/NCrontab/blob/master/README.md
     
   # hello:
   #   handler: out/main.hello
